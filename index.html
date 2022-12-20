@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPEAK</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav id="#header">
+          <div class="navbar">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Logo" />
+            </div>
+            <div class="navbar__list">
+              <ul>
+                <li class="lang-about"><a href="#">About Us</a></li>
+                <li class="lang-blog"><a href="#">Blog</a></li>
+                <a href="#popup"> <li class="lang-contact"></li></a>
+              </ul>
+            </div>
+            <div class="navbar__btn">
+              <img id="en_icon" src="./img/flags.png" alt="" />
+              <img
+                id="ru_icon"
+                src="./img/russia_flag.png"
+                width2="26px"
+                height="26px"
+                alt=""
+              />
+              <select class="change-lang" onchange="N">
+                <option id="en" value="en">EN</option>
+                <option id="ru" value="ru">RU</option>
+              </select>
+              <button class="btn lang-btnEnter">Sing In</button>
+            </div>
+          </div>
+        </nav>
+        <section class="header__content">
+          <div class="container__left">
+            <p class="lang-threeHundred">+300 qualified psychologists</p>
+            <h1 class="lang-sessions">Sessions with a psychologist Online</h1>
+            <button id="btn_repeat" class="btn btn_repeat lang-btnRepeat">
+              Start a Conversation
+            </button>
+          </div>
+          <div class="header__photo">
+            <img src="./img/header_medi.png" alt="header_medi" />
+          </div>
+        </section>
+        <section class="download__block">
+          <div class="download__video">
+            <img src="./img/cover.png" alt="Video" />
+          </div>
+          <div class="download__screen">
+            <div class="download__title">
+              <h1 class="lang-downloadTitle">Download the SPEAK for free</h1>
+            </div>
+            <div class="download__speak">
+              <img src="./img/Speak Logo Black 2.png" alt="" />
+              <h1>
+                SPEAK
+                <p class="lang-downloadOnlineSessions">
+                  online sessions with a psychologist available for iOS and
+                  Android
+                </p>
+              </h1>
+            </div>
+            <div class="download__apps">
+              <a href="#"
+                ><img src="./img/VectorAppStore.png" alt="" />
+                <h1>
+                  Dowload on the
+                  <p>App Store</p>
+                </h1></a
+              >
+              <a href="#"
+                ><img src="./img/VectorGoogle.png" alt="" />
+                <h1>
+                  GET IT ON
+                  <p>Google Play</p>
+                </h1></a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main>
+      <section class="swiper__section">
+        <div class="container">
+          <div class="slider__menu">
+            <div class="slider__title">
+              <h1>Психологи работающие с актуальными темами</h1>
+            </div>
+            <div class="slider_categories">
+              <ul>
+                <li><a href="">Чувства</a></li>
+                <li><a href="">Одиночество</a></li>
+                <li><a href="">Вредные привычки</a></li>
+                <li><a href="">Отношения</a></li>
+                <li><a href="">Работа</a></li>
+                <li><a href="">Смыслы</a></li>
+                <li><a href="">Стресс</a></li>
+                <li><a href="">Тревога</a></li>
+                <li><a href="">Отношения с близкими</a></li>
+                <li class="active"><a href="">+300 сихологов</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="image-slider swiper-container">
+          <div class="image-slider__wrapper swiper-wrapper">
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="./img/photoPerson1.png" alt="person1" />
+              </div>
+              <div class="slider__under_title">
+                <h2>Илья Благов</h2>
+              </div>
+              <div class="slider__under_rating">
+                <img class="stars" src="./img/stars.png" alt="" />
+                <a href="#"><img src="./img/icon_arrow-right.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="./img/photoPerson2.png" alt="person2" />
+              </div>
+              <div class="slider__under_title">
+                <h2>Иванна Есина</h2>
+              </div>
+              <div class="slider__under_rating">
+                <img class="stars" src="./img/stars.png" alt="" />
+                <a href="#"><img src="./img/icon_arrow-right.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="./img/photoPerson3.png" alt="person3" />
+              </div>
+              <div class="slider__under_title">
+                <h2>Артур Островский</h2>
+              </div>
+              <div class="slider__under_rating">
+                <img class="stars" src="./img/stars.png" alt="" />
+                <a href="#"><img src="./img/icon_arrow-right.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="./img/photoPerson4.png" alt="person4" />
+              </div>
+              <div class="slider__under_title">
+                <h2>Юля Заграничная</h2>
+              </div>
+              <div class="slider__under_rating">
+                <img class="stars" src="./img/stars.png" alt="" />
+                <a href="#"><img src="./img/icon_arrow-right.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img src="./img/photoPerson5.png" alt="person5" />
+              </div>
+              <div class="slider__under_title">
+                <h2>Андрей Ян</h2>
+              </div>
+              <div class="slider__under_rating">
+                <img class="stars" src="./img/stars.png" alt="" />
+                <a href="#"><img src="./img/icon_arrow-right.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="check__lines">
+        <div class="container">
+          <div class="check__lines_wrap">
+            <div class="container__left_check">
+              <div class="check__lines_title">
+                <h1>Поможем вам</h1>
+              </div>
+              <div class="check__line_list">
+                <ul>
+                  <li>Разрешить причины сложных отношений с партнером</li>
+                  <li>Снять или снизить остроту переживаний</li>
+                  <li>Справиться с выгоранием на работе и найти мотивацию</li>
+                  <li>Понять себя в отношениях с близкими людьми</li>
+                  <li>Найти себя и понимать свои желания</li>
+                  <li>Исследовать и управлять изменениями в своей жизни</li>
+                </ul>
+              </div>
+            </div>
+            <div class="check__lines_photo">
+              <img src="./img/help.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="videocall">
+        <div class="container">
+          <div class="videocall_back">
+            <div class="videocall_phone">
+              <img src="./img/MobileVideo.png" alt="" />
+            </div>
+            <div class="videocall_right_content">
+              <div class="videocall_list">
+                <div>
+                  <h1>Преимущества онлайн сессий с психологом</h1>
+                </div>
+                <ul>
+                  <li>Занимайтесь где и как удобно</li>
+                  <p>Дома или в поездке и в любом часовом поясе</p>
+                  <li>Меньше забот- больше мотивации</li>
+                  <p>
+                    Не тратьте время на дорогу и управляйте занятиями в два
+                    клика
+                  </p>
+                  <li>Доверяйте себе</li>
+                  <p>
+                    Выбирайте среди проверенных психологов, которые
+                    специаллизируются на ваших запросах
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="selection">
+        <div class="container">
+          <div class="selection_all">
+            <div class="selection_wrap">
+              <div class="selection_title">
+                <h1>Как мы отбираем специалистов?</h1>
+                <p>Отбор проходят меньше 10% специаллистов</p>
+              </div>
+              <div class="selection_list">
+                <ul>
+                  <div class="num">
+                    <img src="./img/num1.png" alt="" />
+                    <li>Документы об образовании</li>
+                    <p>
+                      Обязательно иметь высшее психологическое образование и
+                      сертификаты для ведения психотерапии
+                    </p>
+                  </div>
+
+                  <div class="num2">
+                    <img src="./img/num2.png" alt="" />
+                    <li>Опыт частной практики и личной терапии</li>
+                    <p>
+                      Нужно не менее 3-х лет частной практики, личная терапия и
+                      регулярные супервизии
+                    </p>
+                  </div>
+
+                  <div class="num3">
+                    <img src="./img/num3.png" alt="" />
+                    <li>Собеседование с нашим экспертом-ментором</li>
+                    <p>
+                      Отслеживаются коммуникативные способности, уровень
+                      эмпатии, манера и стиль беседы, проффесиональные
+                      компетенции
+                    </p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="selection_photo">
+              <img src="./img/img_tablet.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="stats">
+        <div class="container">
+          <div class="stats_wrap">
+            <div class="stats__title">
+              <h1>О сервисе</h1>
+            </div>
+            <div class="stats_content">
+              <div class="stats_content_image">
+                <img src="./img/cover.png" alt="" />
+              </div>
+              <div class="stats_content_stats">
+                <div class="stats_re">
+                  <h1>900 +</h1>
+                  <p>регистраций вчера</p>
+                </div>
+                <div class="stats_re">
+                  <h1>75 000 +</h1>
+                  <p>проведено сессий</p>
+                </div>
+                <div class="stats_re">
+                  <h1>354 +</h1>
+                  <p>психологов</p>
+                </div>
+              </div>
+            </div>
+            <div class="stats_underContent">
+              <div class="stats_underContent_re">
+                <img src="./img/img_calendar.png" alt="1" />
+                <h1>
+                  Подбор “По позже”
+                  <p>Подбор с возможностью бронирование сессии на будущее</p>
+                </h1>
+              </div>
+              <div class="stats_underContent_re">
+                <img src="./img/img_stopwatch.png" alt="2" />
+                <h1>
+                  Подбор “Сейчас”
+                  <p>Подбор с возможностью начала сессии “здесь и сейчас”</p>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="howToWork">
+        <div class="container">
+          <div class="how_to_work_wrap">
+            <div class="how_to_work_title">
+              <h1>Как это устроено</h1>
+            </div>
+            <div class="how_to_work_content_wrap">
+              <div class="how_to_work_blockOne">
+                <div class="how_to_work_num">
+                  <div>
+                    <h4>1</h4>
+                  </div>
+                  <div>
+                    <h1>Заполните простую анкету</h1>
+                    <p>
+                      Расскажите, что вас беспокоит и что важно в психологе.
+                    </p>
+                  </div>
+                </div>
+                <div class="how_to_work_num">
+                  <div>
+                    <h4>3</h4>
+                  </div>
+                  <div>
+                    <h1>Выберите способ связи с психологом</h1>
+                    <div>
+                      49руб/мин по <a href="#">аудио/видео связи</a>200руб за 24
+                      часа <a href="#">чата + аудио сообщения</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="how_to_work_photo">
+                <div>
+                  <img src="./img/MobileVideo.png" alt="" />
+                </div>
+                <div>
+                  <button type="button"><a href="#">Начать общение</a></button>
+                </div>
+              </div>
+              <div class="how_to_work_blockTwo">
+                <div class="how_to_work_num">
+                  <div>
+                    <h4>2</h4>
+                  </div>
+                  <div>
+                    <h1>Выберите психолога</h1>
+                    <p>Выберите понравившегося психолога</p>
+                  </div>
+                </div>
+                <div class="how_to_work_num">
+                  <div>
+                    <h4>4</h4>
+                  </div>
+                  <div>
+                    <h1>Начните общение</h1>
+                    <p>
+                      Все общение происходит через платформу SPEAK. Вслучае если
+                      психолог вам не понравится, вы можете заменить его без
+                      дополнительных переплат
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="popup" class="popup">
+      <a href="#header" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header" class="popup__close">X</a>
+          <div class="popup__titile">Contacts</div>
+          <div class="popup__text">
+            Phone Number: +380********* <br />
+            Email: ***********@gmail.com <br />
+            Instagram: <a href="#">@speak_for_help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./lang.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
